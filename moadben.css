@@ -1,0 +1,92 @@
+@import "compass/css3";
+
+body {
+	font-family:'Droid Serif', serif;
+	background-color: #122B36;
+	color: #FBF7F4;
+}
+
+.header {
+	position: relative;
+	height: 500px;
+	font-weight: bold;
+	background-repeat: no-repeat;
+  	background-size: cover;
+	background-image: url("http://www.canadaka.net/modules/My_eGallery/gallery/urban_canada/vancouver/vancouver_skyline_281.jpg");
+} 
+	
+
+.header h1 {
+	margin: 0;
+	position: absolute;
+	font-weight: bold;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
+.header p{
+	margin: 0;
+	position: absolute;
+	font-weight: bold;
+	top: 95%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
+
+.navigate li {
+	color: #5a5a5a
+	text-transform: uppercase;
+	border: 10px;
+	font-size: 12px;
+	font-weight: bold;
+	display: inline;
+	padding: 14px 10px;
+}
+
+.about-me h3 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.menu {
+  cursor: pointer;
+  margin: 0 auto;
+  padding-left: 1.25em;
+  position: relative;
+  width: 25px;
+  height: 25px;
+  right: 100%
+}
+.menu-global {
+  backface-visibility: hidden;
+  position: absolute;
+  left: 0;
+  border-top: 4px solid white;
+  width: 100%;
+  transition: 0.55s;
+}
+.menu-top {
+  top: 0;
+}
+.menu-middle {
+  top: 12px;
+}
+.menu-bottom {
+  top: 24px;
+}
+.menu-top-click {
+  backface-visibility: hidden;
+  top: 15px;
+  transform: rotate(50deg);
+  transition: 0.55s 0.5s;
+}
+.menu-middle-click {
+  opacity: 0;
+}
+.menu-bottom-click {
+  backface-visibility: hidden;
+  top: 15px;
+  transform: rotate(-410deg);
+  transition: 0.55s 0.5s;
+}

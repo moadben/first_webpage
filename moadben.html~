@@ -1,0 +1,57 @@
+<!DOCTYPE html?>
+<html>
+
+<head>
+	<script src="moadben.js"></script>
+	<title> Moad Ben-Suleiman </title>
+	<link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+	<link href="moadben.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+	<div class="navigate">
+	<div class="container">
+		<ul class = "pull-right">
+			<li><a href=""> About Me </a></li>
+			<li><a href=""> Project Info</a></li>
+			<li><a href=""> Contact</a></li>
+		</ul>
+		
+		<ul class = "pull-left">
+				<li><div class="menu">
+  	<span class="menu-global menu-top"></span>
+  	<span class="menu-global menu-middle"></span>
+  	<span class="menu-global menu-bottom"></span>
+	</div></li>
+				<li> Moad Ben-Suleiman </li>
+		</ul>
+	</div>
+	</div>
+	<div class="header">
+		<h1><center> Hello!</center></h1>
+		<p> Welcome to my website! </p>
+	</div>
+	
+	<div class="about-me">
+	  <div class="container">
+		<div class="row">
+	      <div class="col-md-4">
+			<h3><u>School</u></h3>
+			<p>I am currently a 2nd year Computer Science student at the University of Victoria. I graduated from Cambie Secondary School in Richmond, BC.</p>
+	      </div>
+		  <div class="col-md-4">
+			<h3><u>Hobbies</u></h3>
+			<p> I enjoy a magnitude of sports, with my favorites being basketball and kickboxing. Alongside sports I love reading books, networking and coding!</p>
+		  </div>
+		  <div class="col-md-4">
+			<h3><u>Projects</u></h3>
+			<p>Check out <a href="https://github.com/moadben">my github</a> and  <a href="https://bitbucket.org/moadben"> my bitbucket </a></p>
+		  </div>
+	    </div>
+	  </div>
+	</div>
+</body>
+
+</html>
