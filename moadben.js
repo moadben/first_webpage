@@ -1,3 +1,24 @@
+var main = function() {
+$('.icon-menu').click(function() {
+    $('.menu-i').animate({
+        left: '0px'
+    }, 200);
+    
+    $('body').animate({
+        left: '285px'
+    }, 200);
+});
+
+$('.icon-close').click(function() {
+    $('.menu-i').animate({
+      left: "-285px"
+    }, 200);
+
+    $('body').animate({
+      left: "0px"
+    }, 200);
+  });
+
 var Menu = {
   
   el: {
@@ -30,3 +51,7 @@ var Menu = {
 };
 
 Menu.init();
+
+};
+
+$(document).ready(main);

@@ -2,8 +2,10 @@
 
 body {
 	font-family:'Droid Serif', serif;
-	background-color: #122B36;
+	background-color: #030803;
 	color: #FBF7F4;
+	overflow: hidden;
+	position: relative;
 }
 
 .header {
@@ -32,21 +34,104 @@ body {
 	top: 95%;
 	left: 50%;
 	margin-right: -50%;
+	border-bottom-style: solid;
 	transform: translate(-50%, -50%);
 }
 
-.navigate li {
-	color: #5a5a5a
-	text-transform: uppercase;
-	border: 10px;
-	font-size: 12px;
-	font-weight: bold;
-	display: inline;
-	padding: 14px 10px;
+.navigate li{
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-top: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+	
 }
 
 .about-me h3 {
 	font-family: 'Montserrat', sans-serif;
+}
+
+.about-me {
+	border-bottom-style: solid;
+	padding-bottom: 40px;
+	background-color: #050B0F;
+}
+
+.contact {
+	padding: 20px;
+}
+
+.img.resize{
+	width: 540px;
+	height: auto;
+}
+
+
+.menu-i {
+  background: black repeat left top;
+  left: -285px;  /* start off behind the scenes */
+  height: 100%;
+  position: fixed;
+  width: 285px;
+}
+
+.menu-i ul {
+  border-top: 1px solid #636366;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-i li {
+  border-bottom: 1px solid #636366;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 3px;
+}
+
+.menu-i a {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.icon-menu {
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-top: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.icon {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-top: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.icon-menu i {
+  margin-right: 5px;
+}
+
+.icon-close {
+  cursor: pointer;
+  padding-left: 10px;
+  padding-top: 10px;
 }
 
 .menu {
@@ -54,32 +139,31 @@ body {
   margin: 0 auto;
   padding-left: 1.25em;
   position: relative;
-  width: 25px;
-  height: 25px;
-  right: 100%
+  width: 24px;
+  height: 24px;
 }
 .menu-global {
   backface-visibility: hidden;
   position: absolute;
   left: 0;
   border-top: 4px solid white;
-  width: 100%;
+  width: 75%;
   transition: 0.55s;
 }
 .menu-top {
   top: 0;
 }
 .menu-middle {
-  top: 12px;
+  top: 7px;
 }
 .menu-bottom {
-  top: 24px;
+  top: 14px;
 }
 .menu-top-click {
   backface-visibility: hidden;
   top: 15px;
   transform: rotate(50deg);
-  transition: 0.55s 0.5s;
+  transition: 0.45s 0.4s;
 }
 .menu-middle-click {
   opacity: 0;
@@ -88,5 +172,5 @@ body {
   backface-visibility: hidden;
   top: 15px;
   transform: rotate(-410deg);
-  transition: 0.55s 0.5s;
+  transition: 0.45s 0.4s;
 }
