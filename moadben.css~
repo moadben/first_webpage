@@ -27,6 +27,7 @@ body {
 	margin-right: -50%;
 	transform: translate(-50%, -50%);
 }
+
 .header p{
 	margin: 0;
 	position: absolute;
@@ -36,6 +37,15 @@ body {
 	margin-right: -50%;
 	border-bottom-style: solid;
 	transform: translate(-50%, -50%);
+}
+
+.links {
+	color: #fff;
+	padding-bottom: 50px;
+}
+
+.links a {
+	color: #fff;
 }
 
 .navigate li{
@@ -50,14 +60,27 @@ body {
 	
 }
 
-.about-me h3 {
-	font-family: 'Montserrat', sans-serif;
+.about-me h2 {
+	padding-top: 60px;
+	padding-bottom: 60px;
 }
 
 .about-me {
-	border-bottom-style: solid;
+	font-weight: bold;
 	padding-bottom: 40px;
-	background-color: #050B0F;
+	
+}
+
+.border {
+	border-bottom-style: solid;
+	border-width: 1px;
+	opacity: 0.6;
+	padding-bottom: 40px;
+}
+	
+
+.about-me h1 {
+	padding-bottom: 30px;
 }
 
 .contact {
@@ -69,6 +92,16 @@ body {
 	height: auto;
 }
 
+.projects {
+	border-bottom-style: solid;
+	font-family: 'Open Sans', sans-serif;
+	padding-bottom: 40px;
+}
+
+.projects h1{
+	padding-bottom: 30px;
+	font-family: 'Open Sans', sans-serif;
+}
 
 .menu-i {
   background: black repeat left top;
@@ -124,6 +157,10 @@ body {
   text-transform: uppercase;
 }
 
+.icon a {
+	color: #fff;
+}
+
 .icon-menu i {
   margin-right: 5px;
 }
@@ -163,7 +200,7 @@ body {
   backface-visibility: hidden;
   top: 15px;
   transform: rotate(50deg);
-  transition: 0.55s 0.5s;
+  transition: 0.45s 0.4s;
 }
 .menu-middle-click {
   opacity: 0;
@@ -172,5 +209,5 @@ body {
   backface-visibility: hidden;
   top: 15px;
   transform: rotate(-410deg);
-  transition: 0.55s 0.5s;
+  transition: 0.45s 0.4s;
 }

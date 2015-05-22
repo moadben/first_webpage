@@ -1,51 +1,12 @@
 @import "compass/css3";
 
-body {
+body{
 	font-family:'Droid Serif', serif;
-	background-color: #030803;
-	color: #FBF7F4;
+	background-color: white;
+	color: grey;
 	overflow: hidden;
 	position: relative;
-}
-
-.header {
-	position: relative;
-	height: 500px;
-	font-weight: bold;
-	background-repeat: no-repeat;
-  	background-size: cover;
-	background-image: url("http://www.canadaka.net/modules/My_eGallery/gallery/urban_canada/vancouver/vancouver_skyline_281.jpg");
-} 
 	
-
-.header h1 {
-	margin: 0;
-	position: absolute;
-	font-weight: bold;
-	top: 50%;
-	left: 50%;
-	margin-right: -50%;
-	transform: translate(-50%, -50%);
-}
-
-.header p{
-	margin: 0;
-	position: absolute;
-	font-weight: bold;
-	top: 95%;
-	left: 50%;
-	margin-right: -50%;
-	border-bottom-style: solid;
-	transform: translate(-50%, -50%);
-}
-
-.links {
-	color: #fff;
-	padding-bottom: 50px;
-}
-
-.links a {
-	color: #fff;
 }
 
 .navigate li{
@@ -57,50 +18,8 @@ body {
   padding-top: 25px;
   text-decoration: none;
   text-transform: uppercase;
+  border-bottom-style: solid black;
 	
-}
-
-.about-me h2 {
-	padding-top: 60px;
-	padding-bottom: 60px;
-}
-
-.about-me {
-	font-weight: bold;
-	padding-bottom: 40px;
-	
-}
-
-.border {
-	border-bottom-style: solid;
-	border-width: 1px;
-	opacity: 0.6;
-	padding-bottom: 40px;
-}
-	
-
-.about-me h1 {
-	padding-bottom: 30px;
-}
-
-.contact {
-	padding: 20px;
-}
-
-.img.resize{
-	width: 540px;
-	height: auto;
-}
-
-.projects {
-	border-bottom-style: solid;
-	font-family: 'Open Sans', sans-serif;
-	padding-bottom: 40px;
-}
-
-.projects h1{
-	padding-bottom: 30px;
-	font-family: 'Open Sans', sans-serif;
 }
 
 .menu-i {
@@ -147,7 +66,7 @@ body {
 }
 
 .icon {
-  color: #fff;
+  color: black;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   padding-bottom: 25px;
@@ -155,10 +74,11 @@ body {
   padding-top: 25px;
   text-decoration: none;
   text-transform: uppercase;
+  
 }
 
 .icon a {
-	color: #fff;
+	color: black;
 }
 
 .icon-menu i {
@@ -183,7 +103,7 @@ body {
   backface-visibility: hidden;
   position: absolute;
   left: 0;
-  border-top: 4px solid white;
+  border-top: 4px solid black;
   width: 75%;
   transition: 0.55s;
 }
@@ -211,3 +131,19 @@ body {
   transform: rotate(-410deg);
   transition: 0.45s 0.4s;
 }
+
+.header {
+	color: black;
+}
+
+.contact {
+	padding: 20px;
+}
+
+.border {
+	border-bottom-style: solid;
+	border-width: 1px;
+	opacity: 0.6;
+	padding-bottom: 40px;
+}
+

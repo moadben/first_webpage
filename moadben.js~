@@ -17,8 +17,11 @@ $('.icon-close').click(function() {
     $('body').animate({
       left: "0px"
     }, 200);
+	    
+	Menu.activateMenu(event);
+        event.preventDefault();
+    
   });
-};
 
 var Menu = {
   
