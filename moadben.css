@@ -41,7 +41,7 @@ body {
 
 .links {
 	color: #fff;
-	padding-bottom: 50px;
+	padding-bottom: 100px;
 }
 
 .links a {
@@ -67,9 +67,16 @@ body {
 
 .about-me {
 	font-weight: bold;
-	padding-bottom: 40px;
+	padding-bottom: 50px;
 	
 }
+
+
+.skl h1{
+	right: 50px;
+	
+}
+
 
 .border {
 	border-bottom-style: solid;
@@ -78,6 +85,15 @@ body {
 	padding-bottom: 40px;
 }
 	
+
+.title {
+	padding-left: 100px;
+	padding-bottom: 35px;
+}
+
+.school-b {
+	padding-bottom: 100px;
+}
 
 .about-me h1 {
 	padding-bottom: 30px;
